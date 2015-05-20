@@ -19,6 +19,6 @@ InfoArea(PVector location, int w, int h){
 
  rect(playAreaWidth-200, playAreaHeight-900,playAreaWidth, playAreaHeight);
   smooth();
-  //end of base of menu
+
   
 }

@@ -2,7 +2,6 @@
 int MAX_GREEN = 30;
 int MAX_YELLOW = 2;
 Boolean started = false;
-// sabina loves to code
 Game game  = new Game();
 Button button = new Button(new PVector(100, 100));
 int playAreaHeight = 900;
@@ -13,7 +12,7 @@ int scrnWidth = playAreaWidth + infoPanelWidth;
 void setup()
 {
  size(scrnWidth, playAreaHeight);
-  background(255);
+  background(255, 20, 20);
 }
 
 void draw()
